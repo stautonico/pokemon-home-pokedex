@@ -15,6 +15,7 @@ boxes = workbook.add_worksheet("Boxes")
 
 pokemon_cells = {}
 
+
 # Manual file renames:
 # nidoran-f -> nidoranf
 # nidoran-m -> nidoranm
@@ -42,13 +43,6 @@ pokemon_cells = {}
 # cp wishiwashi-solo -> wishiwashi
 # type-null -> typenull
 # cp mimikyu-disguised -> mimikyu
-# jangmo-o -> jangmoo
-# hakamo-o -> hakamoo
-# kommo-o -> kommoo
-# tapu-koko -> tapukoko
-# tapu-lele -> tapulele
-# tapu-bulu -> tapubulu
-# tapu-fini -> tapufini
 # cp toxtricity-amped -> toxtricity
 # mr-rime -> mrrime
 # cp eiscue-ice -> eiscue
@@ -120,8 +114,6 @@ def make_checklist():
             # Read the pokemon data without the "gmax-" prefix
             pokemon = pokemon[5:]
             gmax = True
-
-
 
         # Load the pokemon data (from the json file)
         try:
@@ -217,6 +209,10 @@ def make_boxes():
 
         # Merge the first 6 cells in the row
         boxes.merge_range(row, col, row, col + 5, current_box["title"])
+        checklist.conditional_format(row, col, row, col + 5, {
+            "type": "no_blanks",
+            "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
+        })
         # Center the text and make it bold + 16px
         # boxes.set_row(row, 24)
         # boxes.set_column_pixels(col, col + 5, 24)
@@ -243,7 +239,6 @@ def make_boxes():
                     boxes.write(row, col, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)')
                 else:
                     boxes.write(row, col, f"TODO: {pokemon} (image not found)")
-
 
                 checkbox_cell = pokemon_cells.get(pokemon, None)
 
@@ -285,6 +280,10 @@ def make_boxes():
 
         # Merge the first 6 cells in the row
         boxes.merge_range(row, col, row, col + 5, current_box["title"])
+        checklist.conditional_format(row, col, row, col + 5, {
+            "type": "no_blanks",
+            "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
+        })
         # Center the text and make it bold + 16px
         # boxes.set_row_pixels(row, 24)
         # boxes.set_column_pixels(col, col + 5, 24)
@@ -333,7 +332,6 @@ def make_boxes():
                     "type": "no_blanks",
                     "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
                 })
-
 
                 # Set the column width to 96
                 boxes.set_column_pixels(col, col, 96)
