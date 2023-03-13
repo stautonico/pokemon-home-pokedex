@@ -1,5 +1,4 @@
 import requests
-from pprint import pprint
 import os
 import json
 import xlsxwriter
@@ -14,6 +13,32 @@ checklist = workbook.add_worksheet("Checklist")
 boxes = workbook.add_worksheet("Boxes")
 
 pokemon_cells = {}
+
+center_text = workbook.add_format()
+center_text.set_align("center")
+center_text.set_align("vcenter")
+
+class Colors:
+    INFO = '\033[94m'
+    SUCCESS = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    END = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+def info(msg):
+    print(f"{Colors.INFO}[INFO]{Colors.END}: {msg}")
+
+def success(msg):
+    print(f"{Colors.SUCCESS}[GOOD]{Colors.END}: {msg}")
+
+def warn(msg):
+    print(f"{Colors.WARNING}[WARN]{Colors.END}: {msg}")
+
+def fail(msg):
+    print(f"{Colors.FAIL}[FAIL]: {msg}{Colors.END}")
+
 
 # TODO: Add where to get them (which game, etc)
 # TODO: Add sprites for additional forms (e.g. regional, variants, gmax, m/f, etc)
@@ -58,23 +83,23 @@ def download_all_sprites():
         r2 = requests.get(pokemon["url"])
 
         if r2.status_code != 200:
-            print(f"[FAIL] Failed to download {pokemon['name']}")
+            fail(f"Failed to download {pokemon['name']}")
 
             with open("sprites-failed.txt", "a") as f:
                 f.write(f"{pokemon['name']}\n")
                 continue
 
-        print(f"[INFO] Downloading sprite for {r2.json()['name']}")
+        info(f"Downloading sprite for {r2.json()['name']}")
 
         # Check if we already have the sprite
         if os.path.exists(f"sprites/{r2.json()['name']}.png"):
-            print(f"[INFO] Already have sprite for {r2.json()['name']}")
+            info(f"Already have sprite for {r2.json()['name']}")
             continue
 
         image_url = r2.json()["sprites"]["front_default"]
 
         if image_url is None:
-            print(f"[INFO] No sprite for {r2.json()['name']}")
+            warn(f"No sprite for {r2.json()['name']}")
             continue
 
         # Download the image url into the sprites folder
@@ -88,18 +113,37 @@ def download_all_sprites():
         with open(f"sprites/{r2.json()['name']}.png", "wb") as f:
             f.write(r.content)
 
-        print(f"[DONE] Downloaded sprite for {r2.json()['name']}")
+        success(f"Downloaded sprite for {r2.json()['name']}")
 
 
 def make_checklist():
-    common_formatting = workbook.add_format()
-    common_formatting.set_align("center")
-    common_formatting.set_align("vcenter")
-
     checklist.write(0, 0, "Caught")
     checklist.write(0, 1, "ID")
     checklist.write(0, 2, "Name")
     checklist.write(0, 3, "Sprite")
+
+    # Write the totals (I2, J2, and I3, J3)
+    checklist.write(1, 8, "Species", center_text)
+    checklist.write(1, 9, "=concat(countif(A2:A906, \"TRUE\"), concat(\" of \", COUNTA(A2:A906)))", center_text)
+    checklist.write(1, 10, "=concat(round(countif(A2:A906, \"TRUE\")/COUNTA(A2:A906)*100, 2), \"%\")", center_text)
+    # put a border around the totals
+    checklist.conditional_format(1, 8, 1, 8, {"type": "no_blanks",
+                                              "format": workbook.add_format({"left": 1, "top": 1, "bottom": 1})})
+    checklist.conditional_format(1, 9, 1, 9, {"type": "no_blanks",
+                                              "format": workbook.add_format({"top": 1, "bottom": 1})})
+    checklist.conditional_format(1, 10, 1, 10, {"type": "no_blanks",
+                                                "format": workbook.add_format({"right": 1, "top": 1, "bottom": 1})})
+
+    checklist.conditional_format(2, 8, 2, 8, {"type": "no_blanks",
+                                              "format": workbook.add_format({"left": 1, "top": 1, "bottom": 1})})
+    checklist.conditional_format(2, 9, 2, 9, {"type": "no_blanks",
+                                              "format": workbook.add_format({"top": 1, "bottom": 1})})
+    checklist.conditional_format(2, 10, 2, 10, {"type": "no_blanks",
+                                                "format": workbook.add_format({"right": 1, "top": 1, "bottom": 1})})
+
+    checklist.write(2, 8, "Total", center_text)
+    checklist.write(2, 9, "=concat(countif(A2:A1293, \"TRUE\"), concat(\" of \", COUNTA(A2:A1293)))", center_text)
+    checklist.write(2, 10, "=concat(round(countif(A2:A1293, \"TRUE\")/COUNTA(A2:A1293)*100, 2), \"%\")", center_text)
 
     row = 1
 
@@ -119,23 +163,17 @@ def make_checklist():
             with open(f"pokemon-data/{pokemon}.json", "r") as f:
                 pokemon_data = json.loads(f.read())
         except FileNotFoundError:
-            print(f"[WARN] Could not find {pokemon}, trying without the dash...")
-            new_fileanme = pokemon.split("-")[0] + ".json"
-            try:
-                with open(f"pokemon-data/{new_fileanme}", "r") as f:
-                    pokemon_data = json.loads(f.read())
-            except FileNotFoundError:
-                print(f"Could not find {pokemon} or {new_fileanme}")
-                exit(1)
+            warn(f"Could not find '{pokemon}', using '{pokemon}' as the name")
+            pokemon_data = {"name": pokemon, "id": 0}
 
-        checklist.write(row, 0, "FALSE", common_formatting)
+        checklist.write(row, 0, "FALSE", center_text)
         # Write the ID
-        checklist.write(row, 1, pokemon_data["id"], common_formatting)
+        checklist.write(row, 1, pokemon_data["id"], center_text)
         # Write the name
         if gmax:
-            checklist.write(row, 2, f"Gigantamax {pokemon_data['name'].title()}", common_formatting)
+            checklist.write(row, 2, f"Gigantamax {pokemon_data['name'].title()}", center_text)
         else:
-            checklist.write(row, 2, pokemon_data["name"].title(), common_formatting)
+            checklist.write(row, 2, pokemon_data["name"].title(), center_text)
         # Write the sprite
         if os.path.exists(f"sprites/{pokemon_data['name']}.png"):
             # Add the image (using google sheets image url)
@@ -208,7 +246,7 @@ def make_boxes():
 
         # Merge the first 6 cells in the row
         boxes.merge_range(row, col, row, col + 5, current_box["title"])
-        checklist.conditional_format(row, col, row, col + 5, {
+        boxes.conditional_format(row, col, row, col + 5, {
             "type": "no_blanks",
             "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
         })
@@ -279,7 +317,7 @@ def make_boxes():
 
         # Merge the first 6 cells in the row
         boxes.merge_range(row, col, row, col + 5, current_box["title"])
-        checklist.conditional_format(row, col, row, col + 5, {
+        boxes.conditional_format(row, col, row, col + 5, {
             "type": "no_blanks",
             "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
         })
