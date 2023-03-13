@@ -15,6 +15,8 @@ boxes = workbook.add_worksheet("Boxes")
 
 pokemon_cells = {}
 
+# TODO: Add where to get them (which game, etc)
+# TODO: Add sprites for additional forms (e.g. regional, variants, gmax, m/f, etc)
 
 # Manual file renames:
 # mime-jr -> mimejr
@@ -45,7 +47,6 @@ pokemon_cells = {}
 # mr-rime -> mrrime
 # cp eiscue-ice -> eiscue
 # cp indeedee-male -> indeedee
-# cp morpeko-full-belly -> morpeko
 # cp urshifu-single-strike -> urshifu
 # cp basculegion-male -> basculegion
 # cp enamorus-incarnate -> enamorus
