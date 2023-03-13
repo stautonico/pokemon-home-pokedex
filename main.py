@@ -6,6 +6,33 @@ import xlsxwriter
 
 API_BASE = "https://pokeapi.co/api/v2"
 
+GITHUB_SPRITE_URL = "https://raw.githubusercontent.com/stautonico/pokemon-home-pokedex/main/sprites"
+
+workbook = xlsxwriter.Workbook('pokemon.xlsx')
+
+checklist = workbook.add_worksheet("Checklist")
+boxes = workbook.add_worksheet("Boxes")
+
+pokemon_cells = {}
+
+# Manual file renames:
+# nidoran-f -> nidoranf
+# nidoran-m -> nidoranm
+# mime-jr -> mimejr
+# mr-mime -> mrmime
+# ho-oh -> hooh
+# cp deoxys-normal -> deoxys
+# cp wormadam-plant -> wormadam
+# cp giratina-altered -> giratina
+# cp shaymin-land -> shaymin
+# cp basculin-red-striped -> basculin
+# cp darmanitan-standard -> darmanitan
+# cp tornadus-incarnate -> tornadus
+# cp thundurus-incarnate -> thundurus
+# cp landorus-incarnate -> landorus
+# cp keldeo-ordinary -> keldeo
+# cp meloetta-aria -> meloetta
+
 
 def download_all_sprites():
     r = requests.get(f"{API_BASE}/pokemon?limit=100000&offset=0")
@@ -47,17 +74,83 @@ def download_all_sprites():
         print(f"[DONE] Downloaded sprite for {r2.json()['name']}")
 
 
+def make_checklist():
+    common_formatting = workbook.add_format()
+    common_formatting.set_align("center")
+    common_formatting.set_align("vcenter")
+
+    checklist.write(0, 0, "Caught")
+    checklist.write(0, 1, "ID")
+    checklist.write(0, 2, "Name")
+    checklist.write(0, 3, "Sprite")
+
+    row = 1
+
+    with open("all-pokemon.json", "r") as f:
+        all_pokemon = json.loads(f.read())["pokemon"]
+
+    for pokemon in all_pokemon:
+        # Load the pokemon data (from the json file)
+        with open(f"pokemon-data/{pokemon}.json", "r") as f:
+            pokemon_data = json.loads(f.read())
+
+        checklist.write(row, 0, "FALSE", common_formatting)
+        # Write the ID
+        checklist.write(row, 1, pokemon_data["id"], common_formatting)
+        # Write the name
+        checklist.write(row, 2, pokemon_data["name"].title(), common_formatting)
+        # Write the sprite
+        if os.path.exists(f"sprites/{pokemon_data['name']}.png"):
+            # Add the image (using google sheets image url)
+            checklist.write(row, 3, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon_data["name"]}.png", 2)')
+        else:
+            checklist.write(row, 3, f"TODO: {pokemon_data['name']} (image not found)")
+
+        # For columns 0-3, if the first column in the row is "TRUE", make the background green
+        # otherwise, make the background red
+
+        checklist.conditional_format(row, 0, row, 3, {
+            "type": "formula",
+            "criteria": f'=COUNTIF($A{row + 1}, "TRUE") = 1',
+            "format": workbook.add_format({"bg_color": "#00FF00"})
+        })
+
+        checklist.conditional_format(row, 0, row, 3, {
+            "type": "formula",
+            "criteria": f'=COUNTIF($A{row + 1}, "FALSE") = 1',
+            "format": workbook.add_format(
+                {"bg_color": "#FF0000", "font_color": "#FFFFFF"})
+        })
+
+        # Add a border to each row
+        checklist.conditional_format(row, 0, row, 3, {
+            "type": "no_blanks",
+            "format": workbook.add_format({"bottom": 1, "top": 1})
+        })
+
+        checklist.conditional_format(row, 0, row, 0, {
+            "type": "no_blanks",
+            "format": workbook.add_format({"left": 1})
+        })
+
+        checklist.conditional_format(row, 3, row, 3, {
+            "type": "no_blanks",
+            "format": workbook.add_format({"right": 1})
+        })
+
+        # Make the sprite column 96px wide
+        checklist.set_column_pixels(3, 3, 96)
+        checklist.set_row_pixels(row, 96)
+
+        # Set the position of the checkbox
+        pokemon_cells[pokemon] = "A" + str(row + 1)
+
+        row += 1
+
+
 def make_boxes():
     with open("boxes.json", "r") as f:
         boxes_json = json.loads(f.read())
-
-    workbook = xlsxwriter.Workbook('pokemon.xlsx')
-
-    worksheet = workbook.add_worksheet()
-
-    # Boxes are 6x5
-    # Boxes are separated by 1 row
-    # Boxes also have one merged row on top that contains its title
 
     # The "boxes" in the json file are an object
     # They contain the following keys:
@@ -65,41 +158,153 @@ def make_boxes():
     # "pokemon" - The pokemon in the box (list of strings) (should be 30 pokemon, but can be less)
     # Some of the pokemon in the boxes are dictionaries (the gmax ones), we just want the "pid" key
 
-    current_row = 0
+    row = 1
+    col = 1
+    box = 0
 
-    for box in boxes_json["boxes"]:
-        # Add the title
-        worksheet.merge_range(current_row, 0, current_row, 5, box["title"], workbook.add_format({'bold': True}))
-        current_row += 1
+    while True:
+        try:
+            pokemon_index = 0
+            current_box = boxes_json["boxes"][box]
+        except IndexError:
+            break  # We're done
 
-        # Add the pokemon
-        for i, pokemon in enumerate(box["pokemon"]):
-            # Get the pokemon id
-            if isinstance(pokemon, dict):
-                pokemon_id = pokemon["pid"]
-            else:
-                pokemon_id = pokemon
+        # Merge the first 6 cells in the row
+        boxes.merge_range(row, col, row, col + 5, current_box["title"])
+        # Center the text and make it bold + 16px
+        # boxes.set_row(row, 24)
+        # boxes.set_column_pixels(col, col + 5, 24)
+        boxes.write(row, col, current_box["title"],
+                    workbook.add_format({"bold": True, "font_size": 16, "align": "center", "valign": "vcenter"}))
 
-            # Get the pokemon name (we'll just use the id for now)
-            pokemon_name = pokemon_id
-            # r = requests.get(f"{API_BASE}/pokemon/{pokemon_id}")
-            # pokemon_name = r.json()["name"]
+        row += 1
 
-            # Get the pokemon sprite
-            if os.path.exists(f"sprites/{pokemon_name}.png"):
-                # Write the google sheets image function (and get from http://localhost:8000)
-                worksheet.write(current_row, i % 6, f'=IMAGE("http://localhost:8000/sprites/{pokemon_name}.png", 4)')
+        for _ in range(5):
+            for _ in range(6):
+                try:
+                    pokemon = current_box["pokemon"][pokemon_index]
+                except IndexError:
+                    # If we run out of pokemon, just break (this box doesn't have 30 pokemon)
+                    break
 
-            else:
-                worksheet.write(current_row, i % 6, pokemon_name)
+                pokemon_index += 1
 
-            if i % 6 == 5:
-                current_row += 1
+                if isinstance(pokemon, dict):
+                    pokemon = pokemon["pid"]
 
-        current_row += 2
+                if os.path.exists(f"sprites/{pokemon}.png"):
+                    # Add the image (using google sheets image url)
+                    boxes.write(row, col, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)')
+                else:
+                    boxes.write(row, col, f"TODO: {pokemon} (image not found)")
 
-    workbook.close()
+
+                checkbox_cell = pokemon_cells.get(pokemon, None)
+
+                boxes.conditional_format(row, col, row, col, {
+                    "type": "formula",
+                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "TRUE") = 1',
+                    "format": workbook.add_format({"bg_color": "#00FF00"})
+                })
+
+                boxes.conditional_format(row, col, row, col, {
+                    "type": "formula",
+                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "FALSE") = 1',
+                    "format": workbook.add_format({"bg_color": "#FF0000", "font_color": "#FFFFFF"})
+                })
+
+                # Set a border around each cell
+                boxes.conditional_format(row, col, row, col, {
+                    "type": "no_blanks",
+                    "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
+                })
+
+                boxes.set_column_pixels(col, col, 96)
+                boxes.set_row_pixels(row, 96)
+
+                col += 1
+            row += 1
+            col = 1
+
+        # Move the row back up 6 rows to do the second box
+        row -= 6
+        col = 8
+        box += 1
+
+        try:
+            current_box = boxes_json["boxes"][box]
+            pokemon_index = 0
+        except IndexError:
+            break  # We're done
+
+        # Merge the first 6 cells in the row
+        boxes.merge_range(row, col, row, col + 5, current_box["title"])
+        # Center the text and make it bold + 16px
+        # boxes.set_row_pixels(row, 24)
+        # boxes.set_column_pixels(col, col + 5, 24)
+        boxes.write(row, col, current_box["title"],
+                    workbook.add_format({"bold": True, "font_size": 16, "align": "center", "valign": "vcenter"}))
+
+        row += 1
+
+        for _ in range(5):
+            for _ in range(6):
+                try:
+                    pokemon = current_box["pokemon"][pokemon_index]
+                except IndexError:
+                    # If we run out of pokemon, just break (this box doesn't have 30 pokemon)
+                    break
+
+                pokemon_index += 1
+
+                if isinstance(pokemon, dict):
+                    pokemon = pokemon["pid"]
+
+                if os.path.exists(f"sprites/{pokemon}.png"):
+                    # Add the image (using google sheets image url)
+                    boxes.write(row, col, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)')
+                else:
+                    boxes.write(row, col, f"TODO: {pokemon} (image not found)")
+
+                checkbox_cell = pokemon_cells.get(pokemon, None)
+
+                checkbox_cell = pokemon_cells.get(pokemon, None)
+
+                boxes.conditional_format(row, col, row, col, {
+                    "type": "formula",
+                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "TRUE") = 1',
+                    "format": workbook.add_format({"bg_color": "#00FF00"})
+                })
+
+                boxes.conditional_format(row, col, row, col, {
+                    "type": "formula",
+                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "FALSE") = 1',
+                    "format": workbook.add_format({"bg_color": "#FF0000", "font_color": "#FFFFFF"})
+                })
+
+                # Set a border around each cell
+                boxes.conditional_format(row, col, row, col, {
+                    "type": "no_blanks",
+                    "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
+                })
+
+
+                # Set the column width to 96
+                boxes.set_column_pixels(col, col, 96)
+                boxes.set_row_pixels(row, 96)
+
+                col += 1
+            row += 1
+            col = 8
+
+        # One for padding and one for the next box
+        row += 2
+        col = 1
+        box += 1
 
 
 if __name__ == '__main__':
+    make_checklist()
     make_boxes()
+
+    workbook.close()
