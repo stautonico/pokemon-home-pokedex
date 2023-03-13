@@ -17,8 +17,6 @@ pokemon_cells = {}
 
 
 # Manual file renames:
-# nidoran-f -> nidoranf
-# nidoran-m -> nidoranm
 # mime-jr -> mimejr
 # mr-mime -> mrmime
 # ho-oh -> hooh
