@@ -32,7 +32,31 @@ pokemon_cells = {}
 # cp landorus-incarnate -> landorus
 # cp keldeo-ordinary -> keldeo
 # cp meloetta-aria -> meloetta
-
+# cp meowstic-male -> meowstic
+# cp aegislash-shield -> aegislash
+# cp pumpkaboo-average -> pumpkaboo
+# cp gourgeist-average -> gourgeist
+# cp zygarde-50 -> zygarde
+# cp oricorio-pom-pom -> oricorio
+# cp lycanroc-midday -> lycanroc
+# cp wishiwashi-solo -> wishiwashi
+# type-null -> typenull
+# cp mimikyu-disguised -> mimikyu
+# jangmo-o -> jangmoo
+# hakamo-o -> hakamoo
+# kommo-o -> kommoo
+# tapu-koko -> tapukoko
+# tapu-lele -> tapulele
+# tapu-bulu -> tapubulu
+# tapu-fini -> tapufini
+# cp toxtricity-amped -> toxtricity
+# mr-rime -> mrrime
+# cp eiscue-ice -> eiscue
+# cp indeedee-male -> indeedee
+# cp morpeko-full-belly -> morpeko
+# cp urshifu-single-strike -> urshifu
+# cp basculegion-male -> basculegion
+# cp enamorus-incarnate -> enamorus
 
 def download_all_sprites():
     r = requests.get(f"{API_BASE}/pokemon?limit=100000&offset=0")
@@ -90,15 +114,37 @@ def make_checklist():
         all_pokemon = json.loads(f.read())["pokemon"]
 
     for pokemon in all_pokemon:
+        gmax = False
+        # Special case for gmax
+        if pokemon.startswith("gmax-"):
+            # Read the pokemon data without the "gmax-" prefix
+            pokemon = pokemon[5:]
+            gmax = True
+
+
+
         # Load the pokemon data (from the json file)
-        with open(f"pokemon-data/{pokemon}.json", "r") as f:
-            pokemon_data = json.loads(f.read())
+        try:
+            with open(f"pokemon-data/{pokemon}.json", "r") as f:
+                pokemon_data = json.loads(f.read())
+        except FileNotFoundError:
+            print(f"[WARN] Could not find {pokemon}, trying without the dash...")
+            new_fileanme = pokemon.split("-")[0] + ".json"
+            try:
+                with open(f"pokemon-data/{new_fileanme}", "r") as f:
+                    pokemon_data = json.loads(f.read())
+            except FileNotFoundError:
+                print(f"Could not find {pokemon} or {new_fileanme}")
+                exit(1)
 
         checklist.write(row, 0, "FALSE", common_formatting)
         # Write the ID
         checklist.write(row, 1, pokemon_data["id"], common_formatting)
         # Write the name
-        checklist.write(row, 2, pokemon_data["name"].title(), common_formatting)
+        if gmax:
+            checklist.write(row, 2, f"Gigantamax {pokemon_data['name'].title()}", common_formatting)
+        else:
+            checklist.write(row, 2, pokemon_data["name"].title(), common_formatting)
         # Write the sprite
         if os.path.exists(f"sprites/{pokemon_data['name']}.png"):
             # Add the image (using google sheets image url)
