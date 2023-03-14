@@ -1352,11 +1352,11 @@
         null,
         null,
         "greninja",
-        "greninja--battle-bond",
+        "greninja-battle-bond",
         "zygarde",
         "zygarde-10",
-        "zygarde--power-construct",
-        "zygarde-10--power-construct"
+        "zygarde-power-construct",
+        "zygarde-10-power-construct"
       ]
     },
     {
@@ -1394,7 +1394,7 @@
         null,
         null,
         "rockruff",
-        "rockruff--own-tempo",
+        "rockruff-own-tempo",
         "lycanroc",
         "lycanroc-midnight",
         "lycanroc-dusk",

@@ -18,6 +18,12 @@ center_text = workbook.add_format()
 center_text.set_align("center")
 center_text.set_align("vcenter")
 
+full_border = workbook.add_format({"border": 1})
+
+BOXES_ROW = 0
+BOXES_COL = 0
+BOXES_POKEMON_INDEX = 0
+
 game_colors = {
     "Pokemon Let's Go! Pikachu/Eevee": {
         "bg": "#eeece5",
@@ -140,8 +146,8 @@ def fail(msg):
     print(f"{Colors.FAIL}[FAIL]: {msg}{Colors.END}")
 
 
-# TODO: Add where to get them (which game, etc)
 # TODO: Add sprites for additional forms (e.g. regional, variants, gmax, m/f, etc)
+# TODO: Optimize sheet by removing some (unnecessary) conditional formatting (which just slows down the sheet)
 
 # Manual file renames:
 # mime-jr -> mimejr
@@ -378,7 +384,77 @@ def make_checklist():
         row += 1
 
 
+def write_cell(row, col, value, pokemon, format=None):
+    boxes.write(row, col, value, format)
+
+    checkbox_cell = pokemon_cells.get(pokemon, None)
+
+    boxes.conditional_format(BOXES_ROW, BOXES_COL, BOXES_ROW, BOXES_COL, {
+        "type": "formula",
+        "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "TRUE") = 1',
+        "format": workbook.add_format({"bg_color": "#00FF00"})
+    })
+
+    boxes.conditional_format(BOXES_ROW, BOXES_COL, BOXES_ROW, BOXES_COL, {
+        "type": "formula",
+        "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "FALSE") = 1',
+        "format": workbook.add_format({"bg_color": "#FF0000", "font_color": "#FFFFFF"})
+    })
+
+    boxes.set_column_pixels(BOXES_COL, BOXES_COL, 96)
+    boxes.set_row_pixels(BOXES_ROW, 96)
+
+
+def draw_box(current_box, reset_col):
+    global BOXES_COL, BOXES_ROW, BOXES_POKEMON_INDEX
+    # Merge the first 6 cells in the row
+    boxes.merge_range(BOXES_ROW, BOXES_COL, BOXES_ROW, BOXES_COL + 5, current_box["title"])
+    boxes.conditional_format(BOXES_ROW, BOXES_COL, BOXES_ROW, BOXES_COL + 5, {
+        "type": "no_blanks",
+        "format": full_border
+    })
+    # Center the text and make it bold + 16px
+    boxes.write(BOXES_ROW, BOXES_COL, current_box["title"],
+                workbook.add_format({"bold": True, "font_size": 16, "align": "center", "valign": "vcenter"}))
+
+    BOXES_ROW += 1
+
+
+    for _ in range(5):
+        for _ in range(6):
+            try:
+                ERROR = False
+                pokemon = current_box["pokemon"][BOXES_POKEMON_INDEX]
+            except IndexError:
+                # Just draw an empty cell with a border
+                write_cell(BOXES_ROW, BOXES_COL, "", None, full_border)
+                ERROR = True
+
+            BOXES_POKEMON_INDEX += 1
+
+            if not ERROR:
+                if isinstance(pokemon, dict):
+                    pokemon = pokemon["pid"]
+
+                # Special case for empty cells
+                if pokemon is None:
+                    write_cell(BOXES_ROW, BOXES_COL, "", pokemon, full_border)
+                else:
+                    if os.path.exists(f"sprites/{pokemon}.png"):
+                        # Add the image (using google sheets image url)
+                        write_cell(BOXES_ROW, BOXES_COL, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)', pokemon,
+                                   full_border)
+                        boxes.write(BOXES_ROW, BOXES_COL, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)', full_border)
+                    else:
+                        write_cell(BOXES_ROW, BOXES_COL, f"TODO: {pokemon} (image not found)", pokemon, full_border)
+
+            BOXES_COL += 1
+        BOXES_ROW += 1
+        BOXES_COL = reset_col
+
+
 def make_boxes():
+    global BOXES_COL, BOXES_ROW, BOXES_POKEMON_INDEX
     with open("boxes.json", "r") as f:
         boxes_json = json.loads(f.read())
 
@@ -388,154 +464,35 @@ def make_boxes():
     # "pokemon" - The pokemon in the box (list of strings) (should be 30 pokemon, but can be less)
     # Some of the pokemon in the boxes are dictionaries (the gmax ones), we just want the "pid" key
 
-    row = 1
-    col = 1
+    BOXES_ROW = 1
+    BOXES_COL = 1
     box = 0
 
     while True:
         try:
-            pokemon_index = 0
+            BOXES_POKEMON_INDEX = 0
             current_box = boxes_json["boxes"][box]
         except IndexError:
             break  # We're done
 
-        # Merge the first 6 cells in the row
-        boxes.merge_range(row, col, row, col + 5, current_box["title"])
-        boxes.conditional_format(row, col, row, col + 5, {
-            "type": "no_blanks",
-            "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
-        })
-        # Center the text and make it bold + 16px
-        # boxes.set_row(row, 24)
-        # boxes.set_column_pixels(col, col + 5, 24)
-        boxes.write(row, col, current_box["title"],
-                    workbook.add_format({"bold": True, "font_size": 16, "align": "center", "valign": "vcenter"}))
-
-        row += 1
-
-        for _ in range(5):
-            for _ in range(6):
-                try:
-                    pokemon = current_box["pokemon"][pokemon_index]
-                except IndexError:
-                    # If we run out of pokemon, just break (this box doesn't have 30 pokemon)
-                    break
-
-                pokemon_index += 1
-
-                if isinstance(pokemon, dict):
-                    pokemon = pokemon["pid"]
-
-                if os.path.exists(f"sprites/{pokemon}.png"):
-                    # Add the image (using google sheets image url)
-                    boxes.write(row, col, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)')
-                else:
-                    boxes.write(row, col, f"TODO: {pokemon} (image not found)")
-
-                checkbox_cell = pokemon_cells.get(pokemon, None)
-
-                boxes.conditional_format(row, col, row, col, {
-                    "type": "formula",
-                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "TRUE") = 1',
-                    "format": workbook.add_format({"bg_color": "#00FF00"})
-                })
-
-                boxes.conditional_format(row, col, row, col, {
-                    "type": "formula",
-                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "FALSE") = 1',
-                    "format": workbook.add_format({"bg_color": "#FF0000", "font_color": "#FFFFFF"})
-                })
-
-                # Set a border around each cell
-                boxes.conditional_format(row, col, row, col, {
-                    "type": "no_blanks",
-                    "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
-                })
-
-                boxes.set_column_pixels(col, col, 96)
-                boxes.set_row_pixels(row, 96)
-
-                col += 1
-            row += 1
-            col = 1
+        draw_box(current_box, 1)
 
         # Move the row back up 6 rows to do the second box
-        row -= 6
-        col = 8
+        BOXES_ROW -= 6
+        BOXES_COL = 8
         box += 1
 
         try:
             current_box = boxes_json["boxes"][box]
-            pokemon_index = 0
+            BOXES_POKEMON_INDEX = 0
         except IndexError:
             break  # We're done
 
-        # Merge the first 6 cells in the row
-        boxes.merge_range(row, col, row, col + 5, current_box["title"])
-        boxes.conditional_format(row, col, row, col + 5, {
-            "type": "no_blanks",
-            "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
-        })
-        # Center the text and make it bold + 16px
-        # boxes.set_row_pixels(row, 24)
-        # boxes.set_column_pixels(col, col + 5, 24)
-        boxes.write(row, col, current_box["title"],
-                    workbook.add_format({"bold": True, "font_size": 16, "align": "center", "valign": "vcenter"}))
-
-        row += 1
-
-        for _ in range(5):
-            for _ in range(6):
-                try:
-                    pokemon = current_box["pokemon"][pokemon_index]
-                except IndexError:
-                    # If we run out of pokemon, just break (this box doesn't have 30 pokemon)
-                    break
-
-                pokemon_index += 1
-
-                if isinstance(pokemon, dict):
-                    pokemon = pokemon["pid"]
-
-                if os.path.exists(f"sprites/{pokemon}.png"):
-                    # Add the image (using google sheets image url)
-                    boxes.write(row, col, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)')
-                else:
-                    boxes.write(row, col, f"TODO: {pokemon} (image not found)")
-
-                checkbox_cell = pokemon_cells.get(pokemon, None)
-
-                checkbox_cell = pokemon_cells.get(pokemon, None)
-
-                boxes.conditional_format(row, col, row, col, {
-                    "type": "formula",
-                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "TRUE") = 1',
-                    "format": workbook.add_format({"bg_color": "#00FF00"})
-                })
-
-                boxes.conditional_format(row, col, row, col, {
-                    "type": "formula",
-                    "criteria": f'=COUNTIF(INDIRECT(\"Checklist!${checkbox_cell}\"), "FALSE") = 1',
-                    "format": workbook.add_format({"bg_color": "#FF0000", "font_color": "#FFFFFF"})
-                })
-
-                # Set a border around each cell
-                boxes.conditional_format(row, col, row, col, {
-                    "type": "no_blanks",
-                    "format": workbook.add_format({"bottom": 1, "top": 1, "left": 1, "right": 1})
-                })
-
-                # Set the column width to 96
-                boxes.set_column_pixels(col, col, 96)
-                boxes.set_row_pixels(row, 96)
-
-                col += 1
-            row += 1
-            col = 8
+        draw_box(current_box, 8)
 
         # One for padding and one for the next box
-        row += 2
-        col = 1
+        BOXES_ROW += 2
+        BOXES_COL = 1
         box += 1
 
 
