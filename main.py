@@ -433,9 +433,6 @@ def draw_box(current_box, reset_col):
             BOXES_POKEMON_INDEX += 1
 
             if not ERROR:
-                if isinstance(pokemon, dict):
-                    pokemon = pokemon["pid"]
-
                 # Special case for empty cells
                 if pokemon is None:
                     write_cell(BOXES_ROW, BOXES_COL, "", pokemon, full_border)
@@ -444,7 +441,6 @@ def draw_box(current_box, reset_col):
                         # Add the image (using google sheets image url)
                         write_cell(BOXES_ROW, BOXES_COL, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)', pokemon,
                                    full_border)
-                        boxes.write(BOXES_ROW, BOXES_COL, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)', full_border)
                     else:
                         write_cell(BOXES_ROW, BOXES_COL, f"TODO: {pokemon} (image not found)", pokemon, full_border)
 
