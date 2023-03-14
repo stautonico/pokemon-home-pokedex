@@ -304,10 +304,11 @@ def make_checklist():
         else:
             checklist.write(row, 2, pokemon_data["name"].title(), center_text)
         # Write the sprite
-        if os.path.exists(f"sprites/{pokemon_data['name']}.png"):
+        if os.path.exists(f"sprites/{pokemon}.png"):
             # Add the image (using google sheets image url)
             checklist.write(row, 3, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon_data["name"]}.png", 2)')
         else:
+            warn(f"Could not find sprite for {pokemon} ({pokemon_data['name']})")
             checklist.write(row, 3, f"TODO: {pokemon_data['name']} (image not found)")
 
         # Write the preferred game
@@ -447,6 +448,7 @@ def draw_box(current_box, reset_col):
                         write_cell(BOXES_ROW, BOXES_COL, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)', pokemon,
                                    full_border)
                     else:
+                        warn("No image found for " + pokemon + ", using TODO image")
                         write_cell(BOXES_ROW, BOXES_COL, f"TODO: {pokemon} (image not found)", pokemon, full_border)
 
             BOXES_COL += 1
