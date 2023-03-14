@@ -1,3566 +1,4242 @@
 {
-    "bulbasaur": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield DLC 1"
-    },
-    "ivysaur": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield DLC 1"
-    },
-    "venusaur": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield DLC 1"
-    },
-    "squirtle": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield DLC 1"
-    },
-    "wartortle": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield DLC 1"
-    },
-    "blastoise": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield DLC 1"
-    },
-    "weedle": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "kakuna": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "beedrill": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "pidgey": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "pidgeotto": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "pidgeot": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "rattata": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "raticate": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "spearow": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "fearow": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "ekans": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Let's Go! Eevee"
-    },
-    "arbok": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Let's Go! Eevee"
-    },
-    "sandshrew": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "sandslash": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "nidoran-f": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "nidorina": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "nidoqueen": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "nidoran-m": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "nidorino": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "nidoking": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "jigglypuff": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "wigglytuff": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "zubat": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "golbat": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "paras": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "parasect": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "venonat": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "venomoth": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "psyduck": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "golduck": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "mankey": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "primeape": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "poliwag": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "poliwhirl": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "poliwrath": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "abra": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "kadabra": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "alakazam": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "bellsprout": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Let's Go! Eevee"
-    },
-    "weepinbell": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Let's Go! Eevee"
-    },
-    "victreebel": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Let's Go! Eevee"
-    },
-    "tentacool": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "tentacruel": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "geodude": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "graveler": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "golem": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "slowpoke": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "slowbro": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "magnemite": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "magneton": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "doduo": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "dodrio": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "seel": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "dewgong": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "grimer": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "muk": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "drowzee": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "hypno": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "voltorb": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "electrode": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "exeggcute": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "exeggutor": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "cubone": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "marowak": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "lickitung": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "chansey": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "tangela": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "kangaskhan": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "horsea": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "seadra": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "staryu": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "starmie": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "scyther": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Let's Go! Pikachu"
-    },
-    "jynx": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "electabuzz": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "magmar": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "pinsir": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Let's Go! Eevee"
-    },
-    "tauros": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "porygon": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "omanyte": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "omastar": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "kabuto": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "kabutops": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "aerodactyl": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "articuno": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "zapdos": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "moltres": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "dratini": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "dragonair": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "dragonite": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "mewtwo": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": ""
-    },
-    "mew": {
-        "preferred": "Pokemon Let's Go! Pikachu/Eevee",
-        "backup": "Pokemon Sword/Shield"
-    },
-    "chikorita": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "bayleef": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "meganium": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "cyndaquil": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "quilava": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "typhlosion": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "totodile": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "croconaw": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "feraligatr": {
-        "preferred": "Pokemon Crystal",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "sentret": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "furret": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "ledyba": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "ledian": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "spinarak": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "ariados": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "crobat": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "igglybuff": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "mareep": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "flaaffy": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "ampharos": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "marill": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "azumarill": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "politoed": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "hoppip": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "skiploom": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "jumpluff": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "aipom": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "sunkern": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "sunflora": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "yanma": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "murkrow": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "slowking": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Crystal"
-    },
-    "misdreavus": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "unown": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "girafarig": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "pineco": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "forretress": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "dunsparce": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "gligar": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "snubbull": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "granbull": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "scizor": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "heracross": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "teddiursa": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "ursaring": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "slugma": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "magcargo": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "skarmory": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "houndour": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "houndoom": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "kingdra": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "phanpy": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "donphan": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "porygon2": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "stantler": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "smeargle": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "smoochum": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "elekid": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "magby": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "miltank": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "blissey": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Crystal"
-    },
-    "raikou": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "entei": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "suicune": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "lugia": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "hooh": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "celebi": {
-        "preferred": "Pokemon Crystal",
-        "backup": ""
-    },
-    "treecko": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "grovyle": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "sceptile": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "torchic": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "combusken": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "blaziken": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "mudkip": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "marshtomp": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "swampert": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "poochyena": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "mightyena": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "wurmple": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "silcoon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "beautifly": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "cascoon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "dustox": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "taillow": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "swellow": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "surskit": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "masquerain": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "shroomish": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "breloom": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "slakoth": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "vigoroth": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "slaking": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "whismur": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "loudred": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "exploud": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "makuhita": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "hariyama": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "azurill": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "nosepass": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "skitty": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "delcatty": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "aron": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "lairon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "aggron": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "meditite": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "medicham": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "plusle": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "minun": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "volbeat": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "illumise": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "gulpin": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "swalot": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "carvanha": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "sharpedo": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "numel": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "camerupt": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "spoink": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "grumpig": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "spinda": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "cacnea": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "cacturne": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "swablu": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "altaria": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "zangoose": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "seviper": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": ""
-    },
-    "lileep": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon X"
-    },
-    "cradily": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon X"
-    },
-    "anorith": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon X"
-    },
-    "armaldo": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon X"
-    },
-    "castform": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "kecleon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "shuppet": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "banette": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "tropius": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "chimecho": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "absol": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "spheal": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "sealeo": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "walrein": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "clamperl": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "huntail": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "gorebyss": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "relicanth": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "luvdisc": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "bagon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "shelgon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "salamence": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "beldum": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "metang": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "metagross": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "regirock": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "regice": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "registeel": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "latias": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "latios": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "kyogre": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "groudon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "rayquaza": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "jirachi": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "deoxys": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "turtwig": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "grotle": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "torterra": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "chimchar": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "monferno": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "infernape": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "piplup": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "prinplup": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "empoleon": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "starly": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "staravia": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "staraptor": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "bidoof": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "bibarel": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "kricketot": {
-        "preferred": "Pokemon Omega Ruby",
-        "backup": ""
-    },
-    "kricketune": {
-        "preferred": "Pokemon Omega Ruby",
-        "backup": ""
-    },
-    "shinx": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby"
-    },
-    "luxio": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby"
-    },
-    "luxray": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby"
-    },
-    "cranidos": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": ""
-    },
-    "rampardos": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": ""
-    },
-    "shieldon": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": ""
-    },
-    "bastiodon": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": ""
-    },
-    "burmy": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "wormadam": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "mothim": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "pachirisu": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "buizel": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "floatzel": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "ambipom": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "buneary": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "lopunny": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "mismagius": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "honchkrow": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "glameow": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "purugly": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "chingling": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "happiny": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "chatot": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "spiritomb": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "gible": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "gabite": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "garchomp": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "carnivine": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "finneon": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "lumineon": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "magnezone": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "lickilicky": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "tangrowth": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "electivire": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "magmortar": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "yanmega": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "gliscor": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "porygonz": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "probopass": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "uxie": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "mesprit": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "azelf": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "dialga": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": "Pokemon Alpha Sapphire"
-    },
-    "palkia": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": "Pokemon Omega Ruby"
-    },
-    "heatran": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "regigigas": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "giratina": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "cresselia": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "phione": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "manaphy": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "darkrai": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "shaymin": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "arceus": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "victini": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "snivy": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "servine": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "serperior": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "tepig": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "pignite": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "emboar": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "oshawott": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "dewott": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "samurott": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "patrat": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "watchog": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "lillipup": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "herdier": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "stoutland": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "pansage": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "simisage": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "pansear": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "simisear": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "panpour": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "simipour": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "blitzle": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "zebstrika": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "audino": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "sewaddle": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "swadloon": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "leavanny": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "venipede": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "whirlipede": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "scolipede": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "petilil": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Moon/Ultra Moon"
-    },
-    "lilligant": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Moon/Ultra Moon"
-    },
-    "sandile": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "krokorok": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "krookodile": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "tirtouga": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "carracosta": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "archen": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "archeops": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "zorua": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "zoroark": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "ducklett": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "swanna": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "deerling": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "sawsbuck": {
-        "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
-        "backup": ""
-    },
-    "emolga": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "foongus": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "amoonguss": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "alomomola": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "tynamo": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "eelektrik": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "eelektross": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "cryogonal": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "mienfoo": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "mienshao": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "druddigon": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "bouffalant": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "larvesta": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "volcarona": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "cobalion": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "terrakion": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "virizion": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "tornadus": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": "Pokemon Omega Ruby"
-    },
-    "thundurus": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": "Pokemon Alpha Sapphire"
-    },
-    "reshiram": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": "Pokemon Omega Ruby"
-    },
-    "zekrom": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": "Pokemon Alpha Sapphire"
-    },
-    "landorus": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "kyurem": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "keldeo": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "meloetta": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "genesect": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "chespin": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "quilladin": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "chesnaught": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "fennekin": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "braixen": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "delphox": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "froakie": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "frogadier": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "greninja": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon X/Y"
-    },
-    "fletchling": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "fletchinder": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "talonflame": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "scatterbug": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "spewpa": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "vivillon": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "litleo": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "pyroar": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "flabebe": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "floette": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "florges": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "skiddo": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "gogoat": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "furfrou": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "skrelp": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Moon"
-    },
-    "dragalge": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Moon"
-    },
-    "clauncher": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun"
-    },
-    "clawitzer": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun"
-    },
-    "tyrunt": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "tyrantrum": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "amaura": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "aurorus": {
-        "preferred": "Pokemon X/Y",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "dedenne": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "carbink": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "klefki": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon X/Y"
-    },
-    "xerneas": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": "Pokemon X"
-    },
-    "yveltal": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": "Pokemon Y"
-    },
-    "zygarde": {
-        "preferred": "Pokemon X/Y",
-        "backup": ""
-    },
-    "diancie": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "hoopa": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "volcanion": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "rowlet": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "dartrix": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "decidueye": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "litten": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "torracat": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "incineroar": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "popplio": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "brionne": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "primarina": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": "Pokemon Sun/Moon"
-    },
-    "pikipek": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "trumbeak": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "toucannon": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "yungoos": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "gumshoos": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "crabrawler": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "crabominable": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "oricorio": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "rockruff": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "lycanroc": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "fomantis": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "lurantis": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "comfey": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "sandygast": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "palossand": {
-        "preferred": "Pokemon Sword/Shield DLC 1",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "minior": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "komala": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "bruxish": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "tapu-koko": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "tapu-lele": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "tapu-bulu": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "tapu-fini": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "cosmog": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "cosmoem": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "solgaleo": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": ""
-    },
-    "lunala": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": ""
-    },
-    "nihilego": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "buzzwole": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": ""
-    },
-    "pheromosa": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": ""
-    },
-    "xurkitree": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "celesteela": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": ""
-    },
-    "kartana": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": ""
-    },
-    "guzzlord": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "necrozma": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "magearna": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "marshadow": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "poipole": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "naganadel": {
-        "preferred": "Pokemon Ultra Sun/Ultra Moon",
-        "backup": ""
-    },
-    "stakataka": {
-        "preferred": "Pokemon Ultra Moon",
-        "backup": ""
-    },
-    "blacephalon": {
-        "preferred": "Pokemon Ultra Sun",
-        "backup": ""
-    },
-    "zeraora": {
-        "preferred": "Event Distribution",
-        "backup": ""
-    },
-    "meltan": {
-        "preferred": "Pokemon GO",
-        "backup": ""
-    },
-    "melmetal": {
-        "preferred": "Pokemon GO",
-        "backup": ""
-    },
-    "": {
-        "preferred": "",
-        "backup": ""
-    },
-    "grookey": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "thwackey": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rillaboom": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "scorbunny": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "raboot": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cinderace": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sobble": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drizzile": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "inteleon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "blipbug": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dottler": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "orbeetle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "caterpie": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "metapod": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "butterfree": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "grubbin": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "charjabug": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vikavolt": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hoothoot": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "noctowl": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rookidee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "corvisquire": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "corviknight": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "skwovet": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "greedent": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pidove": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "tranquill": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "unfezant": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "nickit": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "thievul": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "zigzagoon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "linoone": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "obstagoon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wooloo": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dubwool": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "lotad": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "lombre": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "ludicolo": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "seedot": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "nuzleaf": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "shiftry": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "chewtle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drednaw": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "purrloin": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "liepard": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "yamper": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "boltund": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bunnelby": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "diggersby": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "minccino": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cinccino": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bounsweet": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "steenee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "tsareena": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "oddish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gloom": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vileplume": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bellossom": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "budew": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "roselia": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "roserade": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wingull": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pelipper": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "joltik": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "galvantula": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "electrike": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "manectric": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vulpix": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ninetales": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "growlithe": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "arcanine": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vanillite": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vanillish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vanilluxe": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "swinub": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "piloswine": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mamoswine": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "delibird": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "snorunt": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "glalie": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "froslass": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "baltoy": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "claydol": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mudbray": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mudsdale": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dwebble": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "crustle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "golett": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "golurk": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "munna": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "musharna": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "natu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "xatu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "stufful": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bewear": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "snover": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "abomasnow": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "krabby": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "kingler": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wooper": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "quagsire": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "corphish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "crawdaunt": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "nincada": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ninjask": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "shedinja": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "tyrogue": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hitmonlee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hitmonchan": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hitmontop": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pancham": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pangoro": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "klink": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "klang": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "klinklang": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "combee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vespiquen": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bronzor": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bronzong": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ralts": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "kirlia": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gardevoir": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gallade": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drifloon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drifblim": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gossifleur": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "eldegoss": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cherubi": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cherrim": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "stunky": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "skuntank": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "tympole": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "palpitoad": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "seismitoad": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "duskull": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dusclops": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dusknoir": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "machop": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "machoke": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "machamp": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gastly": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "haunter": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gengar": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "magikarp": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gyarados": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "goldeen": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "seaking": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "remoraid": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "octillery": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "shellder": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cloyster": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "feebas": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "milotic": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "basculin": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wishiwashi": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pyukumuku": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "trubbish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "garbodor": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sizzlipede": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "centiskorch": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rolycoly": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "carkol": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "coalossal": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "diglett": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dugtrio": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drilbur": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "excadrill": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "roggenrola": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "boldore": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gigalith": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "timburr": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gurdurr": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "conkeldurr": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "woobat": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "swoobat": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "noibat": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "noivern": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "onix": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "steelix": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "arrokuda": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "barraskewda": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "meowth": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "perrserker": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "persian": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "milcery": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "alcremie": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cutiefly": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ribombee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ferroseed": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ferrothorn": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pumpkaboo": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gourgeist": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pichu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pikachu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "raichu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "eevee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vaporeon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "jolteon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "flareon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "espeon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "umbreon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "leafeon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "glaceon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sylveon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "applin": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "flapple": {
-        "preferred": "Pokemon Sword",
-        "backup": ""
-    },
-    "appletun": {
-        "preferred": "Pokemon Shield",
-        "backup": ""
-    },
-    "espurr": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "meowstic": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "swirlix": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X"
-    },
-    "slurpuff": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X"
-    },
-    "spritzee": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Y"
-    },
-    "aromatisse": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Y"
-    },
-    "dewpider": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "araquanid": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wynaut": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wobbuffet": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "farfetchd": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "sirfetchd": {
-        "preferred": "Pokemon Sword",
-        "backup": ""
-    },
-    "chinchou": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "lanturn": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "croagunk": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "toxicroak": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "scraggy": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "scrafty": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "stunfisk": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "shuckle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "barboach": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "whiscash": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "shellos": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gastrodon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wimpod": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "golisopod": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "binacle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "barbaracle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "corsola": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "cursola": {
-        "preferred": "Pokemon Shield",
-        "backup": ""
-    },
-    "impidimp": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "morgrem": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "grimmsnarl": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hatenna": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hattrem": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hatterene": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "salandit": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "salazzle": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pawniard": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bisharp": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "throh": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sawk": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "koffing": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "weezing": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bonsly": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sudowoodo": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cleffa": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "clefairy": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "clefable": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "togepi": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "togetic": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "togekiss": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "munchlax": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "snorlax": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cottonee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "whimsicott": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rhyhorn": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rhydon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rhyperior": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "gothita": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "gothorita": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "gothitelle": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "solosis": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "duosion": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "reuniclus": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "karrablast": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "escavalier": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "shelmet": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "accelgor": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "elgyem": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "beheeyem": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cubchoo": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "beartic": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rufflet": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun"
-    },
-    "braviary": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun"
-    },
-    "vullaby": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Moon"
-    },
-    "mandibuzz": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Moon"
-    },
-    "skorupi": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drapion": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "litwick": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "lampent": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "chandelure": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "inkay": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "malamar": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sneasel": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "weavile": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sableye": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "mawile": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "maractus": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sigilyph": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "riolu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "lucario": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "torkoal": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mimikyu": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cufant": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "copperajah": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "qwilfish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "frillish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "jellicent": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mareanie": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "toxapex": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cramorant": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "toxel": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "toxtricity": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "silicobra": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "sandaconda": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hippopotas": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hippowdon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "durant": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "heatmor": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "helioptile": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "heliolisk": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "hawlucha": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "trapinch": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "vibrava": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "flygon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "axew": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "fraxure": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "haxorus": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "yamask": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "runerigus": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "cofagrigus": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "honedge": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "doublade": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "aegislash": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ponyta": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "rapidash": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "sinistea": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "polteageist": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "indeedee": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "phantump": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "trevenant": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "morelull": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "shiinotic": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "oranguru": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Moon"
-    },
-    "passimian": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun"
-    },
-    "morpeko": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "falinks": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drampa": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Moon"
-    },
-    "turtonator": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun"
-    },
-    "togedemaru": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "snom": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "frosmoth": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "clobbopus": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "grapploct": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "pincurchin": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mantyke": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mantine": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wailmer": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "wailord": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "bergmite": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "avalugg": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dhelmise": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "lapras": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "lunatone": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "solrock": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon X/Y"
-    },
-    "mimejr": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mrmime": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "mrrime": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "darumaka": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "darmanitan": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "stonjourner": {
-        "preferred": "Pokemon Sword",
-        "backup": ""
-    },
-    "eiscue": {
-        "preferred": "Pokemon Shield",
-        "backup": ""
-    },
-    "duraludon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "rotom": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "ditto": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dracozolt": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "arctozolt": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dracovish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "arctovish": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "charmander": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "charmeleon": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "charizard": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "typenull": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "silvally": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "larvitar": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "pupitar": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "tyranitar": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "deino": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "zweilous": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "hydreigon": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Omega Ruby/Alpha Sapphire"
-    },
-    "goomy": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "sliggoo": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "goodra": {
-        "preferred": "Pokemon Shield",
-        "backup": "Pokemon X/Y"
-    },
-    "jangmo-o": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "hakamo-o": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "kommo-o": {
-        "preferred": "Pokemon Sword",
-        "backup": "Pokemon Ultra Sun/Ultra Moon"
-    },
-    "dreepy": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "drakloak": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "dragapult": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    },
-    "zacian": {
-        "preferred": "Pokemon Sword",
-        "backup": ""
-    },
-    "zamazenta": {
-        "preferred": "Pokemon Shield",
-        "backup": ""
-    },
-    "eternatus": {
-        "preferred": "Pokemon Sword/Shield",
-        "backup": ""
-    }
+  "bulbasaur": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield DLC 1"
+  },
+  "ivysaur": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield DLC 1"
+  },
+  "venusaur": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield DLC 1"
+  },
+  "squirtle": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield DLC 1"
+  },
+  "wartortle": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield DLC 1"
+  },
+  "blastoise": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield DLC 1"
+  },
+  "weedle": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "kakuna": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "beedrill": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "pidgey": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "pidgeotto": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "pidgeot": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "rattata": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "raticate": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "spearow": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "fearow": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "ekans": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Let's Go! Eevee"
+  },
+  "arbok": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Let's Go! Eevee"
+  },
+  "sandshrew": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "sandslash": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "nidoran-f": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "nidorina": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "nidoqueen": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "nidoran-m": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "nidorino": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "nidoking": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "jigglypuff": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "wigglytuff": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "zubat": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "golbat": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "paras": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "parasect": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "venonat": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "venomoth": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "psyduck": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "golduck": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "mankey": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "primeape": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "poliwag": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "poliwhirl": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "poliwrath": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "abra": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "kadabra": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "alakazam": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "bellsprout": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Let's Go! Eevee"
+  },
+  "weepinbell": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Let's Go! Eevee"
+  },
+  "victreebel": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Let's Go! Eevee"
+  },
+  "tentacool": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "tentacruel": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "geodude": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "graveler": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "golem": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "slowpoke": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "slowbro": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "magnemite": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "magneton": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "doduo": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "dodrio": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "seel": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "dewgong": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "grimer": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "muk": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "drowzee": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "hypno": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "voltorb": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "electrode": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "exeggcute": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "exeggutor": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "cubone": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "marowak": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "lickitung": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "chansey": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "tangela": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "kangaskhan": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "horsea": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "seadra": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "staryu": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "starmie": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "scyther": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Let's Go! Pikachu"
+  },
+  "jynx": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "electabuzz": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "magmar": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "pinsir": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Let's Go! Eevee"
+  },
+  "tauros": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "porygon": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "omanyte": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "omastar": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "kabuto": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "kabutops": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "aerodactyl": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "articuno": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "zapdos": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "moltres": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "dratini": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "dragonair": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "dragonite": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "mewtwo": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": ""
+  },
+  "mew": {
+    "preferred": "Pokemon Let's Go! Pikachu/Eevee",
+    "backup": "Pokemon Sword/Shield"
+  },
+  "chikorita": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "bayleef": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "meganium": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "cyndaquil": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "quilava": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "typhlosion": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "totodile": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "croconaw": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "feraligatr": {
+    "preferred": "Pokemon Crystal",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "sentret": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "furret": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "ledyba": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "ledian": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "spinarak": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "ariados": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "crobat": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "igglybuff": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "mareep": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "flaaffy": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "ampharos": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "marill": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "azumarill": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "politoed": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "hoppip": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "skiploom": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "jumpluff": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "aipom": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "sunkern": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "sunflora": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "yanma": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "murkrow": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "slowking": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Crystal"
+  },
+  "misdreavus": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-a": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-b": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-c": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-d": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-e": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-f": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-g": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-h": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-i": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-j": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-k": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-l": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-m": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-n": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-o": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-p": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-q": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-r": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-s": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-t": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-u": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-v": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-w": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-x": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-y": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "unown-z": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "girafarig": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "pineco": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "forretress": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "dunsparce": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "gligar": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "snubbull": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "granbull": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "scizor": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "heracross": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "teddiursa": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "ursaring": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "slugma": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "magcargo": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "skarmory": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "houndour": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "houndoom": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "kingdra": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "phanpy": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "donphan": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "porygon2": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "stantler": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "smeargle": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "smoochum": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "elekid": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "magby": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "miltank": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "blissey": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Crystal"
+  },
+  "raikou": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "entei": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "suicune": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "lugia": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "hooh": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "celebi": {
+    "preferred": "Pokemon Crystal",
+    "backup": ""
+  },
+  "treecko": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "grovyle": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "sceptile": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "torchic": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "combusken": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "blaziken": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "mudkip": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "marshtomp": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "swampert": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "poochyena": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "mightyena": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "wurmple": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "silcoon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "beautifly": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "cascoon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "dustox": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "taillow": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "swellow": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "surskit": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "masquerain": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "shroomish": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "breloom": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "slakoth": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "vigoroth": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "slaking": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "whismur": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "loudred": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "exploud": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "makuhita": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "hariyama": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "azurill": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "nosepass": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "skitty": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "delcatty": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "aron": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "lairon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "aggron": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "meditite": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "medicham": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "plusle": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "minun": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "volbeat": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "illumise": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "gulpin": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "swalot": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "carvanha": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "sharpedo": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "numel": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "camerupt": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "spoink": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "grumpig": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "spinda": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "cacnea": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "cacturne": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "swablu": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "altaria": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "zangoose": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "seviper": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": ""
+  },
+  "lileep": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon X"
+  },
+  "cradily": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon X"
+  },
+  "anorith": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon X"
+  },
+  "armaldo": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon X"
+  },
+  "castform": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "kecleon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "shuppet": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "banette": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "tropius": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "chimecho": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "absol": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "spheal": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "sealeo": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "walrein": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "clamperl": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "huntail": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "gorebyss": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "relicanth": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "luvdisc": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "bagon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "shelgon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "salamence": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "beldum": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "metang": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "metagross": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "regirock": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "regice": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "registeel": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "latias": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "latios": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "kyogre": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "groudon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "rayquaza": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "jirachi": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "deoxys": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "turtwig": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "grotle": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "torterra": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "chimchar": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "monferno": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "infernape": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "piplup": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "prinplup": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "empoleon": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "starly": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "staravia": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "staraptor": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "bidoof": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "bibarel": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "kricketot": {
+    "preferred": "Pokemon Omega Ruby",
+    "backup": ""
+  },
+  "kricketune": {
+    "preferred": "Pokemon Omega Ruby",
+    "backup": ""
+  },
+  "shinx": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby"
+  },
+  "luxio": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby"
+  },
+  "luxray": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby"
+  },
+  "cranidos": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "rampardos": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "shieldon": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "bastiodon": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "burmy": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "wormadam": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "mothim": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "pachirisu": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "buizel": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "floatzel": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "ambipom": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "buneary": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "lopunny": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "mismagius": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "honchkrow": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "glameow": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "purugly": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "chingling": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "happiny": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "chatot": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "spiritomb": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "gible": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "gabite": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "garchomp": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "carnivine": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "finneon": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "lumineon": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "magnezone": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "lickilicky": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "tangrowth": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "electivire": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "magmortar": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "yanmega": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "gliscor": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "porygonz": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "probopass": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "uxie": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "mesprit": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "azelf": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "dialga": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": "Pokemon Alpha Sapphire"
+  },
+  "palkia": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": "Pokemon Omega Ruby"
+  },
+  "heatran": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "regigigas": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "giratina": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "cresselia": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "phione": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "manaphy": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "darkrai": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "shaymin": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "arceus": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "victini": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "snivy": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "servine": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "serperior": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "tepig": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "pignite": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "emboar": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "oshawott": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "dewott": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "samurott": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "patrat": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "watchog": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "lillipup": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "herdier": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "stoutland": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "pansage": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "simisage": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "pansear": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "simisear": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "panpour": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "simipour": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "blitzle": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "zebstrika": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "audino": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "sewaddle": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "swadloon": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "leavanny": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "venipede": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "whirlipede": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "scolipede": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "petilil": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Moon/Ultra Moon"
+  },
+  "lilligant": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Moon/Ultra Moon"
+  },
+  "sandile": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "krokorok": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "krookodile": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "tirtouga": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "carracosta": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "archen": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "archeops": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "zorua": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "zoroark": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "ducklett": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "swanna": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "deerling": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "sawsbuck": {
+    "preferred": "Pokemon Omega Ruby/Alpha Sapphire",
+    "backup": ""
+  },
+  "emolga": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "foongus": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "amoonguss": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "alomomola": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "tynamo": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "eelektrik": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "eelektross": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "cryogonal": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "mienfoo": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "mienshao": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "druddigon": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "bouffalant": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "larvesta": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "volcarona": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "cobalion": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "terrakion": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "virizion": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "tornadus": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": "Pokemon Omega Ruby"
+  },
+  "thundurus": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": "Pokemon Alpha Sapphire"
+  },
+  "reshiram": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": "Pokemon Omega Ruby"
+  },
+  "zekrom": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": "Pokemon Alpha Sapphire"
+  },
+  "landorus": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "kyurem": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "keldeo": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "meloetta": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "genesect": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "chespin": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "quilladin": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "chesnaught": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "fennekin": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "braixen": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "delphox": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "froakie": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "frogadier": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "greninja": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon X/Y"
+  },
+  "fletchling": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "fletchinder": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "talonflame": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "scatterbug": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "spewpa": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "vivillon": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "vivillon-polar": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-tundra": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-continental": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-garden": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-elegant": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-meadow": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-modern": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-marine": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-archipelago": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-high-plains": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-sandstorm": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-river": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-monsoon": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-savanna": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-sun": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-ocean": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-jungle": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-fancy": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "vivillon-pokeball": {
+    "preferred": "Pokemon GO",
+    "backup": "Pokemon X/Y"
+  },
+  "litleo": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "pyroar": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "flabebe": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "floette": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "florges": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "skiddo": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "gogoat": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "furfrou": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "skrelp": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Moon"
+  },
+  "dragalge": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Moon"
+  },
+  "clauncher": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun"
+  },
+  "clawitzer": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun"
+  },
+  "tyrunt": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "tyrantrum": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "amaura": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "aurorus": {
+    "preferred": "Pokemon X/Y",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "dedenne": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "carbink": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "klefki": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon X/Y"
+  },
+  "xerneas": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": "Pokemon X"
+  },
+  "yveltal": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": "Pokemon Y"
+  },
+  "zygarde": {
+    "preferred": "Pokemon X/Y",
+    "backup": ""
+  },
+  "diancie": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "hoopa": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "volcanion": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "rowlet": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "dartrix": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "decidueye": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "litten": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "torracat": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "incineroar": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "popplio": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "brionne": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "primarina": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": "Pokemon Sun/Moon"
+  },
+  "pikipek": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "trumbeak": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "toucannon": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "yungoos": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "gumshoos": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "crabrawler": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "crabominable": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "oricorio": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "rockruff": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "lycanroc": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "fomantis": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "lurantis": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "comfey": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "sandygast": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "palossand": {
+    "preferred": "Pokemon Sword/Shield DLC 1",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "minior": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "komala": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "bruxish": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "tapu-koko": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "tapu-lele": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "tapu-bulu": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "tapu-fini": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "cosmog": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "cosmoem": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "solgaleo": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "lunala": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "nihilego": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "buzzwole": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "pheromosa": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "xurkitree": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "celesteela": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "kartana": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "guzzlord": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "necrozma": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "magearna": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "marshadow": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "poipole": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "naganadel": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "stakataka": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "blacephalon": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "zeraora": {
+    "preferred": "Event Distribution",
+    "backup": ""
+  },
+  "meltan": {
+    "preferred": "Pokemon GO",
+    "backup": ""
+  },
+  "melmetal": {
+    "preferred": "Pokemon GO",
+    "backup": ""
+  },
+  "": {
+    "preferred": "",
+    "backup": ""
+  },
+  "grookey": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "thwackey": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rillaboom": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "scorbunny": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "raboot": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cinderace": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sobble": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drizzile": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "inteleon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "blipbug": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dottler": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "orbeetle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "caterpie": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "metapod": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "butterfree": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "grubbin": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "charjabug": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vikavolt": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hoothoot": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "noctowl": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rookidee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "corvisquire": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "corviknight": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "skwovet": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "greedent": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pidove": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "tranquill": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "unfezant": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "nickit": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "thievul": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "zigzagoon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "linoone": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "obstagoon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wooloo": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dubwool": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "lotad": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "lombre": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "ludicolo": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "seedot": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "nuzleaf": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "shiftry": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "chewtle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drednaw": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "purrloin": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "liepard": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "yamper": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "boltund": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bunnelby": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "diggersby": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "minccino": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cinccino": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bounsweet": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "steenee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "tsareena": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "oddish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gloom": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vileplume": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bellossom": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "budew": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "roselia": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "roserade": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wingull": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pelipper": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "joltik": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "galvantula": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "electrike": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "manectric": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vulpix": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ninetales": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "growlithe": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "arcanine": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vanillite": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vanillish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vanilluxe": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "swinub": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "piloswine": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mamoswine": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "delibird": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "snorunt": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "glalie": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "froslass": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "baltoy": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "claydol": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mudbray": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mudsdale": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dwebble": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "crustle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "golett": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "golurk": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "munna": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "musharna": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "natu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "xatu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "stufful": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bewear": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "snover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "abomasnow": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "krabby": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "kingler": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wooper": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "quagsire": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "corphish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "crawdaunt": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "nincada": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ninjask": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "shedinja": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "tyrogue": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hitmonlee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hitmonchan": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hitmontop": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pancham": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pangoro": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "klink": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "klang": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "klinklang": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "combee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vespiquen": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bronzor": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bronzong": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ralts": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "kirlia": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gardevoir": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gallade": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drifloon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drifblim": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gossifleur": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "eldegoss": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cherubi": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cherrim": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "stunky": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "skuntank": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "tympole": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "palpitoad": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "seismitoad": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "duskull": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dusclops": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dusknoir": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "machop": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "machoke": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "machamp": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gastly": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "haunter": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gengar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "magikarp": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gyarados": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "goldeen": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "seaking": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "remoraid": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "octillery": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "shellder": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cloyster": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "feebas": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "milotic": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "basculin": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wishiwashi": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pyukumuku": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "trubbish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "garbodor": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sizzlipede": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "centiskorch": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rolycoly": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "carkol": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "coalossal": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "diglett": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dugtrio": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drilbur": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "excadrill": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "roggenrola": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "boldore": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gigalith": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "timburr": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gurdurr": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "conkeldurr": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "woobat": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "swoobat": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "noibat": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "noivern": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "onix": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "steelix": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "arrokuda": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "barraskewda": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "meowth": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "perrserker": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "persian": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "milcery": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-vanilla-cream-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-vanilla-cream-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-vanilla-cream-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-vanilla-cream-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-vanilla-cream-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-vanilla-cream-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-cream-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-matcha-cream-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-mint-cream-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-lemon-cream-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-salted-cream-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-ruby-swirl-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-caramel-swirl-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-strawberry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-berry": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-love": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-star": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-clover": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-flower": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "alcremie-rainbow-swirl-ribbon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cutiefly": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ribombee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ferroseed": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ferrothorn": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pumpkaboo": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gourgeist": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pichu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pikachu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "raichu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "eevee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vaporeon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "jolteon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "flareon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "espeon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "umbreon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "leafeon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "glaceon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sylveon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "applin": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "flapple": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "appletun": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "espurr": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "meowstic": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "swirlix": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X"
+  },
+  "slurpuff": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X"
+  },
+  "spritzee": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Y"
+  },
+  "aromatisse": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Y"
+  },
+  "dewpider": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "araquanid": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wynaut": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wobbuffet": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "farfetchd": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "sirfetchd": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "chinchou": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "lanturn": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "croagunk": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "toxicroak": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "scraggy": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "scrafty": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "stunfisk": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "shuckle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "barboach": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "whiscash": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "shellos": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gastrodon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wimpod": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "golisopod": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "binacle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "barbaracle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "corsola": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "cursola": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "impidimp": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "morgrem": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "grimmsnarl": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hatenna": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hattrem": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hatterene": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "salandit": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "salazzle": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pawniard": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bisharp": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "throh": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sawk": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "koffing": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "weezing": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bonsly": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sudowoodo": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cleffa": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "clefairy": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "clefable": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "togepi": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "togetic": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "togekiss": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "munchlax": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "snorlax": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cottonee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "whimsicott": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rhyhorn": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rhydon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rhyperior": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "gothita": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "gothorita": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "gothitelle": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "solosis": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "duosion": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "reuniclus": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "karrablast": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "escavalier": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "shelmet": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "accelgor": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "elgyem": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "beheeyem": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cubchoo": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "beartic": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rufflet": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun"
+  },
+  "braviary": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun"
+  },
+  "vullaby": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Moon"
+  },
+  "mandibuzz": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Moon"
+  },
+  "skorupi": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drapion": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "litwick": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "lampent": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "chandelure": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "inkay": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "malamar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sneasel": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "weavile": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sableye": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "mawile": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "maractus": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sigilyph": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "riolu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "lucario": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "torkoal": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mimikyu": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cufant": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "copperajah": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "qwilfish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "frillish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "jellicent": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mareanie": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "toxapex": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cramorant": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "toxel": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "toxtricity": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "silicobra": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "sandaconda": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hippopotas": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hippowdon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "durant": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "heatmor": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "helioptile": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "heliolisk": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "hawlucha": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "trapinch": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "vibrava": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "flygon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "axew": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "fraxure": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "haxorus": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "yamask": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "runerigus": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "cofagrigus": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "honedge": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "doublade": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "aegislash": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ponyta": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "rapidash": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "sinistea": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "polteageist": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "indeedee": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "phantump": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "trevenant": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "morelull": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "shiinotic": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "oranguru": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Moon"
+  },
+  "passimian": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun"
+  },
+  "morpeko": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "falinks": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drampa": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Moon"
+  },
+  "turtonator": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun"
+  },
+  "togedemaru": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "snom": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "frosmoth": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "clobbopus": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "grapploct": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "pincurchin": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mantyke": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mantine": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wailmer": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wailord": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "bergmite": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "avalugg": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dhelmise": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "lapras": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "lunatone": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "solrock": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon X/Y"
+  },
+  "mimejr": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mrmime": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mrrime": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "darumaka": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "darmanitan": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "stonjourner": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "eiscue": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "duraludon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "rotom": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ditto": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dracozolt": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "arctozolt": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dracovish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "arctovish": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "charmander": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "charmeleon": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "charizard": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "typenull": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "silvally": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "larvitar": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "pupitar": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "tyranitar": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "deino": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "zweilous": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "hydreigon": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Omega Ruby/Alpha Sapphire"
+  },
+  "goomy": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "sliggoo": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "goodra": {
+    "preferred": "Pokemon Shield",
+    "backup": "Pokemon X/Y"
+  },
+  "jangmo-o": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "hakamo-o": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "kommo-o": {
+    "preferred": "Pokemon Sword",
+    "backup": "Pokemon Ultra Sun/Ultra Moon"
+  },
+  "dreepy": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "drakloak": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "dragapult": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "zacian": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "zamazenta": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "eternatus": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "growlithe-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "arcanine-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "voltorb-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "electrode-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "typhlosion-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "qwilfish-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "sneasel-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "samurott-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "lilligant-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "basculin-white-striped": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "zorua-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "zoroark-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "braviary-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "sliggoo-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "goodra-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "avalugg-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "decidueye-hisui": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "rattata-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "raticate-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "raichu-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "sandshrew-alola": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "sandslash-alola": {
+    "preferred": "Pokemon Ultra Moon",
+    "backup": ""
+  },
+  "vulpix-alola": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "ninetales-alola": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "meowth-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "persian-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "geodude-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "graveler-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "golem-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "grimer-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "muk-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "exeggutor-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "marowak-alola": {
+    "preferred": "Pokemon Ultra Sun",
+    "backup": ""
+  },
+  "diglett-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "dugtrio-alola": {
+    "preferred": "Pokemon Ultra Sun/Ultra Moon",
+    "backup": ""
+  },
+  "meowth-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "ponyta-galar": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "rapidash-galar": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "slowpoke-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "slowbro-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "farfetchd-galar": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "weezing-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "mrmime-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "articuno-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "zapdos-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "moltres-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "slowking-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "corsola-galar": {
+    "preferred": "Pokemon Shield",
+    "backup": ""
+  },
+  "zigzagoon-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "linoone-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "darumaka-galar": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "darmanitan-galar": {
+    "preferred": "Pokemon Sword",
+    "backup": ""
+  },
+  "yamask-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "stunfisk-galar": {
+    "preferred": "Pokemon Sword/Shield",
+    "backup": ""
+  },
+  "wyrdeer": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "kleavor": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "ursaluna": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "basculegion": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "sneasler": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "overqwil": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "enamorus": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  },
+  "enamorus-therian": {
+    "preferred": "Pokemon Legends: Arceus",
+    "backup": ""
+  }
 }

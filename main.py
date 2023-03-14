@@ -92,6 +92,10 @@ game_colors = {
     "Pokemon GO": {
         "bg": "#082759",
         "fg": "#ffffff"
+    },
+    "Pokemon Legends: Arceus": {
+        "bg": "#fad709",
+        "fg": "#000000"
     }
 }
 
@@ -101,22 +105,26 @@ with open("preferred-games.json", "r") as f:
 
 
 def get_preferred_game(name):
+    if name.endswith("-f") and not name.startswith("unown") and not name.startswith("nidoran"):
+        name = name[:-2]
     if name in preferred_games:
         pokemon = preferred_games[name]
         if pokemon.get("preferred") is not None:
             return pokemon["preferred"]
 
-    # warn(f"Missing preferred game for '{name}'")
+    warn(f"Missing preferred game for '{name}'")
     return "Unknown"
 
 
 def get_backup_game(name):
+    if name.endswith("-f") and not name.startswith("unown") and not name.startswith("nidoran"):
+        name = name[:-2]
     if name in preferred_games:
         pokemon = preferred_games[name]
         if pokemon.get("backup") is not None:
             return pokemon["backup"]
 
-    # warn(f"Missing backup game for '{name}'")
+    warn(f"Missing backup game for '{name}'")
     return "Unknown"
 
 
