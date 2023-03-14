@@ -145,9 +145,8 @@ def warn(msg):
 def fail(msg):
     print(f"{Colors.FAIL}[FAIL]: {msg}{Colors.END}")
 
+# TODO: Add preferred games for ones missing it (legends arceus)
 
-# TODO: Add sprites for additional forms (e.g. regional, variants, gmax, m/f, etc)
-# TODO: Optimize sheet by removing some (unnecessary) conditional formatting (which just slows down the sheet)
 
 # Manual file renames:
 # mime-jr -> mimejr
@@ -302,11 +301,14 @@ def make_checklist():
         if gmax:
             checklist.write(row, 2, f"Gigantamax {pokemon_data['name'].title()}", center_text)
         else:
-            checklist.write(row, 2, pokemon_data["name"].title(), center_text)
+            if pokemon.endswith("-f") and not pokemon.startswith("unown") and not pokemon.startswith("nidoran"):
+                checklist.write(row, 2, pokemon_data["name"].title() + " (♀)", center_text)
+            else:
+                checklist.write(row, 2, pokemon_data["name"].title(), center_text)
         # Write the sprite
         if os.path.exists(f"sprites/{pokemon}.png"):
             # Add the image (using google sheets image url)
-            checklist.write(row, 3, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon_data["name"]}.png", 2)')
+            checklist.write(row, 3, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon}.png", 2)')
         else:
             warn(f"Could not find sprite for {pokemon} ({pokemon_data['name']})")
             checklist.write(row, 3, f"TODO: {pokemon_data['name']} (image not found)")
