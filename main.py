@@ -18,6 +18,102 @@ center_text = workbook.add_format()
 center_text.set_align("center")
 center_text.set_align("vcenter")
 
+game_colors = {
+    "Pokemon Let's Go! Pikachu/Eevee": {
+        "bg": "#eeece5",
+        "fg": "#000000"
+    },
+    "Pokemon Let's Go! Pikachu": {
+        "bg": "#eac244",
+        "fg": "#000000"
+    },
+    "Pokemon Let's Go! Eevee": {
+        "bg": "#cc8a58",
+        "fg": "#000000"
+    },
+    "Pokemon Sword/Shield DLC 1": {
+        "bg": "#993689",
+        "fg": "#ffffff"
+    },
+    "Pokemon Sword/Shield": {
+        "bg": "#7351a1",
+        "fg": "#ffffff"
+    },
+    "Pokemon Sword": {
+        "bg": "#00a1e8",
+        "fg": "#000000"
+    },
+    "Pokemon Shield": {
+        "bg": "#e50059",
+        "fg": "#ffffff"
+    },
+    "Pokemon X/Y": {
+        "bg": "#745563",
+        "fg": "#ffffff"
+    },
+    "Pokemon Ultra Sun/Ultra Moon": {
+        "bg": "#b4cec4",
+        "fg": "#000000"
+    },
+    "Pokemon Crystal": {
+        "bg": "#7c8dc6",
+        "fg": "#FFFFFF"
+    },
+    "Pokemon Ultra Sun": {
+        "bg": "#fce19f",
+        "fg": "#000000"
+    },
+    "Pokemon Ultra Moon": {
+        "bg": "#6bbae9",
+        "fg": "#000000"
+    },
+    "Pokemon Omega Ruby/Alpha Sapphire": {
+        "bg": "#433659",
+        "fg": "#ffffff"
+    },
+    "Pokemon Omega Ruby": {
+        "bg": "#b02e3e",
+        "fg": "#ffffff"
+    },
+    "Pokemon Alpha Sapphire": {
+        "bg": "#1e3862",
+        "fg": "#ffffff"
+    },
+    "Event Distribution": {
+        "bg": "#595959",
+        "fg": "#ffffff"
+    },
+    "Pokemon GO": {
+        "bg": "#082759",
+        "fg": "#ffffff"
+    }
+}
+
+# Load the preferred games
+with open("preferred-games.json", "r") as f:
+    preferred_games = json.load(f)
+
+
+def get_preferred_game(name):
+    if name in preferred_games:
+        pokemon = preferred_games[name]
+        if pokemon.get("preferred") is not None:
+            return pokemon["preferred"]
+
+    warn(f"Missing preferred game for '{name}'")
+    return "Unknown"
+
+
+def get_backup_game(name):
+    if name in preferred_games:
+        pokemon = preferred_games[name]
+        if pokemon.get("backup") is not None:
+            return pokemon["backup"]
+
+    warn(f"Missing backup game for '{name}'")
+    return "Unknown"
+
+
 class Colors:
     INFO = '\033[94m'
     SUCCESS = '\033[92m'
@@ -27,14 +123,18 @@ class Colors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+
 def info(msg):
     print(f"{Colors.INFO}[INFO]{Colors.END}: {msg}")
+
 
 def success(msg):
     print(f"{Colors.SUCCESS}[GOOD]{Colors.END}: {msg}")
 
+
 def warn(msg):
     print(f"{Colors.WARNING}[WARN]{Colors.END}: {msg}")
+
 
 def fail(msg):
     print(f"{Colors.FAIL}[FAIL]: {msg}{Colors.END}")
@@ -117,10 +217,13 @@ def download_all_sprites():
 
 
 def make_checklist():
-    checklist.write(0, 0, "Caught")
-    checklist.write(0, 1, "ID")
-    checklist.write(0, 2, "Name")
-    checklist.write(0, 3, "Sprite")
+    checklist.write(0, 0, "Caught", center_text)
+    checklist.write(0, 1, "ID", center_text)
+    checklist.write(0, 2, "Name", center_text)
+    checklist.write(0, 3, "Sprite", center_text)
+    checklist.write(0, 4, "Preferred Game", center_text)
+    checklist.write(0, 5, "Backup Game", center_text)
+    checklist.write(0, 6, "Notes", center_text)
 
     # Write the totals (I2, J2, and I3, J3)
     checklist.write(1, 8, "Species", center_text)
@@ -144,6 +247,26 @@ def make_checklist():
     checklist.write(2, 8, "Total", center_text)
     checklist.write(2, 9, "=concat(countif(A2:A1293, \"TRUE\"), concat(\" of \", COUNTA(A2:A1293)))", center_text)
     checklist.write(2, 10, "=concat(round(countif(A2:A1293, \"TRUE\")/COUNTA(A2:A1293)*100, 2), \"%\")", center_text)
+
+    # Make a key for the Games and their colors
+    row = 4
+
+    for game, colors in game_colors.items():
+        format = workbook.add_format({
+            "bg_color": colors["bg"],
+            "font_color": colors["fg"],
+            "border": 1,
+            "align": "center",
+            "valign": "vcenter",
+            # Make the text big
+            "font_size": 16
+        })
+
+        # format.set_align("center")
+        # format.set_align("vcenter")
+        # Merge columns 8-10 (I4:K4)
+        checklist.merge_range(row, 8, row, 10, game, format)
+        row += 1
 
     row = 1
 
@@ -180,6 +303,38 @@ def make_checklist():
             checklist.write(row, 3, f'=IMAGE("{GITHUB_SPRITE_URL}/{pokemon_data["name"]}.png", 2)')
         else:
             checklist.write(row, 3, f"TODO: {pokemon_data['name']} (image not found)")
+
+        # Write the preferred game
+        preferred_game = get_preferred_game(pokemon)
+        preferred_game_bg_color = game_colors.get(preferred_game, {}).get("bg", "#FFFFFF")
+        preferred_game_fg_color = game_colors.get(preferred_game, {}).get("fg", "#000000")
+
+        backup_game = get_backup_game(pokemon)
+        backup_game_bg_color = game_colors.get(backup_game, {}).get("bg", "#FFFFFF")
+        backup_game_fg_color = game_colors.get(backup_game, {}).get("fg", "#000000")
+
+        # Create our format (by mixing the center_text, and the preferred game colors)
+        pref_format = workbook.add_format({
+            "bg_color": preferred_game_bg_color,
+            "font_color": preferred_game_fg_color,
+            "border": 1
+        })
+
+        pref_format.set_align("center")
+        pref_format.set_align("vcenter")
+
+        backup_format = workbook.add_format({
+            "bg_color": backup_game_bg_color,
+            "font_color": backup_game_fg_color,
+            "border": 1
+        })
+
+        backup_format.set_align("center")
+        backup_format.set_align("vcenter")
+
+        checklist.write(row, 4, preferred_game, pref_format)
+        # Write the backup game
+        checklist.write(row, 5, backup_game, backup_format)
 
         # For columns 0-3, if the first column in the row is "TRUE", make the background green
         # otherwise, make the background red
