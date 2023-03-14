@@ -106,7 +106,7 @@ def get_preferred_game(name):
         if pokemon.get("preferred") is not None:
             return pokemon["preferred"]
 
-    warn(f"Missing preferred game for '{name}'")
+    # warn(f"Missing preferred game for '{name}'")
     return "Unknown"
 
 
@@ -116,7 +116,7 @@ def get_backup_game(name):
         if pokemon.get("backup") is not None:
             return pokemon["backup"]
 
-    warn(f"Missing backup game for '{name}'")
+    # warn(f"Missing backup game for '{name}'")
     return "Unknown"
 
 
@@ -282,9 +282,9 @@ def make_checklist():
     for pokemon in all_pokemon:
         gmax = False
         # Special case for gmax
-        if pokemon.startswith("gmax-"):
-            # Read the pokemon data without the "gmax-" prefix
-            pokemon = pokemon[5:]
+        if pokemon.endswith("-gigantamax"):
+            # Read the pokemon data without the "-gigantamax" suffix
+            pokemon = pokemon[:-len("-gigantamax")]
             gmax = True
 
         # Load the pokemon data (from the json file)
@@ -379,7 +379,10 @@ def make_checklist():
         checklist.set_row_pixels(row, 96)
 
         # Set the position of the checkbox
-        pokemon_cells[pokemon] = "A" + str(row + 1)
+        if gmax:
+            pokemon_cells[pokemon + "-gigantamax"] = "A" + str(row + 1)
+        else:
+            pokemon_cells[pokemon] = "A" + str(row + 1)
 
         row += 1
 
@@ -388,6 +391,9 @@ def write_cell(row, col, value, pokemon, format=None):
     boxes.write(row, col, value, format)
 
     checkbox_cell = pokemon_cells.get(pokemon, None)
+
+    if checkbox_cell is None and pokemon is not None:
+        fail(f"Could not find the cell for {pokemon}")
 
     boxes.conditional_format(BOXES_ROW, BOXES_COL, BOXES_ROW, BOXES_COL, {
         "type": "formula",
@@ -418,7 +424,6 @@ def draw_box(current_box, reset_col):
                 workbook.add_format({"bold": True, "font_size": 16, "align": "center", "valign": "vcenter"}))
 
     BOXES_ROW += 1
-
 
     for _ in range(5):
         for _ in range(6):
