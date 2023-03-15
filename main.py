@@ -257,8 +257,8 @@ def make_checklist():
 
     # Write the totals (I2, J2, and I3, J3)
     checklist.write(1, 8, "Species", center_text)
-    checklist.write(1, 9, "=concat(countif(A2:A906, \"TRUE\"), concat(\" of \", COUNTA(A2:A906)))", center_text)
-    checklist.write(1, 10, "=concat(round(countif(A2:A906, \"TRUE\")/COUNTA(A2:A906)*100, 2), \"%\")", center_text)
+    checklist.write(1, 9, "=concat(countif(A2:A1011, \"TRUE\"), concat(\" of \", COUNTA(A2:A1011)))", center_text)
+    checklist.write(1, 10, "=concat(round(countif(A2:A1011, \"TRUE\")/COUNTA(A2:A1011)*100, 2), \"%\")", center_text)
     # put a border around the totals
     checklist.conditional_format(1, 8, 1, 8, {"type": "no_blanks",
                                               "format": workbook.add_format({"left": 1, "top": 1, "bottom": 1})})
@@ -275,8 +275,8 @@ def make_checklist():
                                                 "format": workbook.add_format({"right": 1, "top": 1, "bottom": 1})})
 
     checklist.write(2, 8, "Total", center_text)
-    checklist.write(2, 9, "=concat(countif(A2:A1293, \"TRUE\"), concat(\" of \", COUNTA(A2:A1293)))", center_text)
-    checklist.write(2, 10, "=concat(round(countif(A2:A1293, \"TRUE\")/COUNTA(A2:A1293)*100, 2), \"%\")", center_text)
+    checklist.write(2, 9, "=concat(countif(A2:A1411, \"TRUE\"), concat(\" of \", COUNTA(A2:A1411)))", center_text)
+    checklist.write(2, 10, "=concat(round(countif(A2:A1411, \"TRUE\")/COUNTA(A2:A1411)*100, 2), \"%\")", center_text)
 
     # Make a key for the Games and their colors
     row = 4
