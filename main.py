@@ -37,9 +37,13 @@ game_colors = {
         "bg": "#cc8a58",
         "fg": "#000000"
     },
-    "Pokemon Sword/Shield DLC 1": {
+    "Pokemon Sword/Shield DLC (IoA)": {
         "bg": "#993689",
         "fg": "#ffffff"
+    },
+    "Pokemon Sword/Shield DLC (Crown Tundra)": {
+        "bg": "#9fa3c3",
+        "fg": "#000000"
     },
     "Pokemon Sword/Shield": {
         "bg": "#7351a1",
@@ -96,6 +100,18 @@ game_colors = {
     "Pokemon Legends: Arceus": {
         "bg": "#fad709",
         "fg": "#000000"
+    },
+    "Pokemon Scarlet": {
+        "bg": "#d23134",
+        "fg": "#ffffff"
+    },
+    "Pokemon Violet": {
+        "bg": "#41319b",
+        "fg": "#ffffff"
+    },
+    "Pokemon Scarlet/Violet": {
+        "bg": "#8a3168",
+        "fg": "#ffffff"
     }
 }
 
@@ -152,6 +168,7 @@ def warn(msg):
 
 def fail(msg):
     print(f"{Colors.FAIL}[FAIL]: {msg}{Colors.END}")
+
 
 # TODO: Add preferred games for ones missing it (legends arceus)
 
